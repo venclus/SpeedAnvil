@@ -19,7 +19,7 @@ class ReloadCommand(name: String, aliases: List<String>? = null) : CommandUse(na
                 e.printStackTrace()
             }
         } else {
-            sender.sendMessage("§cYou do not have permission to use this command.")
+            sender.sendMessage(ChatUtil.fixColor(this.messageConfig.noPermission))
         }
     }
 
