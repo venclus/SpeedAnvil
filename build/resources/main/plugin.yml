@@ -1,0 +1,8 @@
+name: SpeedAnvil
+version: '1.0'
+main: dev.venclus.speedanvil.Main
+api-version: '1.18'
+prefix: SpeedAnvil-Bukkit
+authors: [ venclus ]
+description: Plugin na magiczne kowadło z SpeedPlugins.PL
+website: dc.speedplugins.pl
